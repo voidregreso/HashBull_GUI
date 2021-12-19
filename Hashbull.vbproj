@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9BD209BE-3906-4C51-88F4-1ACA2C7953B0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Hashbull.My.MyApplication</StartupObject>
+    <RootNamespace>Hashbull</RootNamespace>
+    <AssemblyName>Hashbull</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>HASHBULL</ProductName>
+    <PublisherName>Hashbull.org</PublisherName>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.1.0.0</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Hashbull.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Hashbull.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Hashbull_Logo_trans.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="1_Extraction.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1_Extraction.Designer.vb">
+      <DependentUpon>1_Extraction.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="6_CEWL.Designer.vb">
+      <DependentUpon>6_CEWL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="6_CEWL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="7_Maskprocessor.Designer.vb">
+      <DependentUpon>7_Maskprocessor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="7_Maskprocessor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="APFS.Designer.vb">
+      <DependentUpon>APFS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="APFS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="FileScannerSettings.Designer.vb">
+      <DependentUpon>FileScannerSettings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FileScannerSettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FileScanner.Designer.vb">
+      <DependentUpon>FileScanner.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FileScanner.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IPAdressen.Designer.vb">
+      <DependentUpon>IPAdressen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IPAdressen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScannerSettings.Designer.vb">
+      <DependentUpon>ScannerSettings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ScannerSettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelpScanner.Designer.vb">
+      <DependentUpon>HelpScanner.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HelpScanner.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Scanner.Designer.vb">
+      <DependentUpon>Scanner.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Scanner.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vari.vb" />
+    <Compile Include="Welcome.Designer.vb">
+      <DependentUpon>Welcome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Welcome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wordlist.Designer.vb">
+      <DependentUpon>Wordlist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Wordlist.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Linux_CEWL.Designer.vb">
+      <DependentUpon>Linux_CEWL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Linux_CEWL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Linux_APFS.Designer.vb">
+      <DependentUpon>Linux_APFS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Linux_APFS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pypykatz.Designer.vb">
+      <DependentUpon>Pypykatz.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pypykatz.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelpMaskpro.Designer.vb">
+      <DependentUpon>HelpMaskpro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HelpMaskpro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelpHashcat.Designer.vb">
+      <DependentUpon>HelpHashcat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HelpHashcat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelpEncoding.Designer.vb">
+      <DependentUpon>HelpEncoding.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HelpEncoding.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="4_Settings.Designer.vb">
+      <DependentUpon>4_Settings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="4_Settings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2_Hashcrack.Designer.vb">
+      <DependentUpon>2_Hashcrack.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2_Hashcrack.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="5_BulkEx.Designer.vb">
+      <DependentUpon>5_BulkEx.vb</DependentUpon>
+    </Compile>
+    <Compile Include="5_BulkEx.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelpVers.Designer.vb">
+      <DependentUpon>HelpVers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HelpVers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="3_WordlistUtility.Designer.vb">
+      <DependentUpon>3_WordlistUtility.vb</DependentUpon>
+    </Compile>
+    <Compile Include="3_WordlistUtility.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelpPIM.Designer.vb">
+      <DependentUpon>HelpPIM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HelpPIM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelpAbout.Designer.vb">
+      <DependentUpon>HelpAbout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HelpAbout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Wordlister.Designer.vb">
+      <DependentUpon>Wordlister.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Wordlister.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="1_Extraction.resx">
+      <DependentUpon>1_Extraction.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="6_CEWL.resx">
+      <DependentUpon>6_CEWL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="7_Maskprocessor.resx">
+      <DependentUpon>7_Maskprocessor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="APFS.resx">
+      <DependentUpon>APFS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FileScannerSettings.resx">
+      <DependentUpon>FileScannerSettings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FileScanner.resx">
+      <DependentUpon>FileScanner.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IPAdressen.resx">
+      <DependentUpon>IPAdressen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScannerSettings.resx">
+      <DependentUpon>ScannerSettings.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelpScanner.resx">
+      <DependentUpon>HelpScanner.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Scanner.resx">
+      <DependentUpon>Scanner.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Linux_CEWL.resx">
+      <DependentUpon>Linux_CEWL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelpMaskpro.resx">
+      <DependentUpon>HelpMaskpro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelpHashcat.resx">
+      <DependentUpon>HelpHashcat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelpEncoding.resx">
+      <DependentUpon>HelpEncoding.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="4_Settings.resx">
+      <DependentUpon>4_Settings.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2_Hashcrack.resx">
+      <DependentUpon>2_Hashcrack.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5_BulkEx.resx">
+      <DependentUpon>5_BulkEx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelpVers.resx">
+      <DependentUpon>HelpVers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3_WordlistUtility.resx">
+      <DependentUpon>3_WordlistUtility.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelpPIM.resx">
+      <DependentUpon>HelpPIM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelpAbout.resx">
+      <DependentUpon>HelpAbout.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Linux_APFS.resx">
+      <DependentUpon>Linux_APFS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pypykatz.resx">
+      <DependentUpon>Pypykatz.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Welcome.resx">
+      <DependentUpon>Welcome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wordlist.resx">
+      <DependentUpon>Wordlist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wordlister.resx">
+      <DependentUpon>Wordlister.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Hashbull_Logo_trans.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 und x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

@@ -1,0 +1,204 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="Hashcat" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\Packages\HC\</Value>
+    </Setting>
+    <Setting Name="JTR" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\Packages\JtR\run\</Value>
+    </Setting>
+    <Setting Name="PP2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\Packages\Py2\App\Python\PP2.exe</Value>
+    </Setting>
+    <Setting Name="PP3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\Packages\Py3\App\Python\PP3.exe</Value>
+    </Setting>
+    <Setting Name="Perl" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\Packages\Perl\perl\bin\perl_hashbull.exe</Value>
+    </Setting>
+    <Setting Name="Bulk" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\Packages\BuEx\bulk_extractor64.exe</Value>
+    </Setting>
+    <Setting Name="GPUonly" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="MinControll" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Force" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Workload" Type="System.String" Scope="User">
+      <Value Profile="(Default)">3 - Speed</Value>
+    </Setting>
+    <Setting Name="Celsius" Type="System.String" Scope="User">
+      <Value Profile="(Default)">85</Value>
+    </Setting>
+    <Setting Name="OtherPara" Type="System.String" Scope="User">
+      <Value Profile="(Default)">-O </Value>
+    </Setting>
+    <Setting Name="CheckPot" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="CheckHelp6" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="CheckHelp7" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="TimerS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">60</Value>
+    </Setting>
+    <Setting Name="fav" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="DevOnly" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Eng" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="Ger" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Encoding" Type="System.String" Scope="User">
+      <Value Profile="(Default)">_Encoding_OFF</Value>
+    </Setting>
+    <Setting Name="CheckHelp1" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Mail" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="MailAct" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Scanner1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">blockchain.com</Value>
+    </Setting>
+    <Setting Name="Scanner2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">binance.com</Value>
+    </Setting>
+    <Setting Name="Scanner3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">bitwala.com</Value>
+    </Setting>
+    <Setting Name="Scanner4" Type="System.String" Scope="User">
+      <Value Profile="(Default)">kraken.com</Value>
+    </Setting>
+    <Setting Name="Scanner5" Type="System.String" Scope="User">
+      <Value Profile="(Default)">getmonero.org</Value>
+    </Setting>
+    <Setting Name="Scanner6" Type="System.String" Scope="User">
+      <Value Profile="(Default)">coinbase.com</Value>
+    </Setting>
+    <Setting Name="Scanner7" Type="System.String" Scope="User">
+      <Value Profile="(Default)">bitpanda.com</Value>
+    </Setting>
+    <Setting Name="Scanner8" Type="System.String" Scope="User">
+      <Value Profile="(Default)">myetherwallet.com</Value>
+    </Setting>
+    <Setting Name="Scanner9" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ledger.com</Value>
+    </Setting>
+    <Setting Name="Scanner10" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Trezor</Value>
+    </Setting>
+    <Setting Name="Scanner11" Type="System.String" Scope="User">
+      <Value Profile="(Default)">trezor.io</Value>
+    </Setting>
+    <Setting Name="Scanner12" Type="System.String" Scope="User">
+      <Value Profile="(Default)">shapeshift.com</Value>
+    </Setting>
+    <Setting Name="Scanner13" Type="System.String" Scope="User">
+      <Value Profile="(Default)">KeepKey</Value>
+    </Setting>
+    <Setting Name="Scanner14" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Scanner15" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Scanner16" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Scanner17" Type="System.String" Scope="User">
+      <Value Profile="(Default)">*bitcoin*.exe</Value>
+    </Setting>
+    <Setting Name="Scanner18" Type="System.String" Scope="User">
+      <Value Profile="(Default)">wallet.dat</Value>
+    </Setting>
+    <Setting Name="Scanner19" Type="System.String" Scope="User">
+      <Value Profile="(Default)">*.wallet</Value>
+    </Setting>
+    <Setting Name="Scanner20" Type="System.String" Scope="User">
+      <Value Profile="(Default)">*electrum*.exe</Value>
+    </Setting>
+    <Setting Name="Scanner21" Type="System.String" Scope="User">
+      <Value Profile="(Default)">*ethereum*.exe</Value>
+    </Setting>
+    <Setting Name="Scanner22" Type="System.String" Scope="User">
+      <Value Profile="(Default)">*monero*.exe</Value>
+    </Setting>
+    <Setting Name="Scanner23" Type="System.String" Scope="User">
+      <Value Profile="(Default)">*exodus*.exe</Value>
+    </Setting>
+    <Setting Name="Scanner24" Type="System.String" Scope="User">
+      <Value Profile="(Default)">*ledger*.*</Value>
+    </Setting>
+    <Setting Name="EFSDrives" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C D E F G H I J K L M N O P Q R S T U V W X Y Z</Value>
+    </Setting>
+    <Setting Name="EFS7" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="EFS2" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="EFS3" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="EFS4" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="EFS5" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="EFS6" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="CopyFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Checklog" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ClientIP" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ClientPort" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ClientPW" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ClientFeat" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ServerIP" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ServerPort" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ServerPW" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="BrainCheck" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="MailCheck" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
